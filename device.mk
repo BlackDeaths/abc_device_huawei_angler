@@ -249,13 +249,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl
-	
-# IMS
-PRODUCT_PACKAGES += \
-   com.android.ims.rcsmanager \
-   RcsService \
-   netutils-wrapper-1.0 \
-   PresencePolling	
 		
 # Sensor & activity_recognition HAL
 TARGET_USES_NANOHUB_SENSORHAL := true
